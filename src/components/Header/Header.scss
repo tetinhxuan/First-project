@@ -1,0 +1,22 @@
+.navbar-collapse {
+  justify-content: flex-end;
+
+  flex-grow: 0;
+}
+
+.navbar-nav {
+  min-width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-nav .nav-link.active {
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-link {
+  border-radius: 5px;
+  transition: all 0.5s;
+  min-width: 70px;
+  text-align: center;
+}
